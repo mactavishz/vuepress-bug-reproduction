@@ -27,3 +27,9 @@ npm run doc
 
 yarn doc
 ```
+
+## Other Information
+
+upgrade to latest @babel/core and babel-loader seems to solve this problem
+
+try `cd node_modules/vuepress` and `yarn && yarn add @babel/core@latest babel-loader@latest` to check the result
